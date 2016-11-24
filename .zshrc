@@ -1,0 +1,19 @@
+# Joshua's .zshrc
+
+source ~/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles.
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle lukechilds/zsh-nvm
+antigen bundle lukechilds/zsh-better-npm-completion
+
+# Load the theme.
+antigen theme robbyrussell
+
+# We're done.
+antigen apply
