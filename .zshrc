@@ -16,7 +16,7 @@ antigen bundle lukechilds/zsh-better-npm-completion
 antigen theme robbyrussell
 
 # Docker command alias.
-alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
+alias dps='docker ps --size --format "table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Size}}"'
 
 # We're done.
 antigen apply
