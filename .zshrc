@@ -1,5 +1,10 @@
 # Joshua's .zshrc
 
+if [ ! -f ~/antigen.zsh ]; then
+    echo "antigen.zsh not found!, downloading..."
+    curl -s https://cdn.rawgit.com/zsh-users/antigen/v1.4.1/bin/antigen.zsh > antigen.zsh
+fi
+
 source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
