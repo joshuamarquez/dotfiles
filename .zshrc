@@ -16,6 +16,7 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle lukechilds/zsh-nvm
 antigen bundle lukechilds/zsh-better-npm-completion
+antigen bundle bobthecow/git-flow-completion
 
 # Load the theme.
 antigen theme robbyrussell
