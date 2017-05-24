@@ -24,5 +24,8 @@ antigen theme robbyrussell
 # Docker command alias.
 alias dps='docker ps --size --format "table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Size}}"'
 
+# General aliases.
+alias sizeof="du -sh"
+
 # We're done.
 antigen apply
