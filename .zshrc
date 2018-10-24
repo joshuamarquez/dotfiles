@@ -25,6 +25,7 @@ antigen theme robbyrussell
 alias dps='docker ps --size --format "table {{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Size}}"'
 alias drminone='docker rmi $(docker images | grep none | awk "{print $3}")'
 alias drmnone='docker rm $(docker ps -a --quiet)'
+alias dcleanall='docker system prune -f && docker volume prune -f && docker network prune -f'
 
 # General aliases.
 alias sizeof="du -sh"
